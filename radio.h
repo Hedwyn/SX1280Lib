@@ -49,6 +49,7 @@ typedef enum
     IRQ_RANGING_SLAVE_VALID_CODE,
     IRQ_RANGING_MASTER_ERROR_CODE,
     IRQ_RANGING_MASTER_VALID_CODE,
+    IRQ_ADVANCED_RANGING_DONE
 }IrqRangingCode_t;
 
 /*!
@@ -112,6 +113,7 @@ typedef enum RadioCommands_u
     RADIO_SET_LONGPREAMBLE                  = 0x9B,
     RADIO_SET_UARTSPEED                     = 0x9D,
     RADIO_SET_RANGING_ROLE                  = 0xA3,
+    RADIO_SET_ADVANCED_RANGING              = 0x9A
 }RadioCommands_t;
 
 /*!
